@@ -1,0 +1,95 @@
+.about{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(249,224,187);
+    display: inline;
+}
+
+.aboutPageImage{
+    position: absolute;
+    left: 70px;
+    top: 150px;
+   height: 500px;
+   width: 400px;
+   background-image: url('D:\Projects\proData 5\frontend\src\aboutPage1-removebg.png');
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;
+   animation: slide 0.7s ease-in forwards;
+   border-bottom: 3px solid rgb(145, 104, 74);
+   border-top: 3px solid rgb(145, 104, 74);
+   border-right: 3px solid rgb(145, 104, 74);
+   
+}
+
+.aboutData{
+    position: absolute;
+    right: 190px;
+    top: 140px;
+    /* border: 1px solid black; */
+    height: 500px;
+    width: 500px;
+
+    text-align: left;
+    font-family: 'Popins',sans-serif;
+    animation: slideAbouDate 0.8s ease-in forwards;
+}
+
+.AboutUsH1{
+    color: rgb(73, 51, 35);
+    
+    text-align: left;
+}
+
+.AboutUsP{
+    font-size: 20px;
+letter-spacing: 0.5px;
+font-weight: 200;
+}
+
+
+
+
+@keyframes slide {
+    0% {
+        transform: translateX(10px);
+    }
+
+    50% {
+        transform: translateX(50px);
+        border-bottom: 5px solid rgb(145, 104, 74);
+
+        border-right: 5px solid rgb(145, 104, 74);
+
+    }
+
+    100% {
+        transform: translateX(70px);
+        border-bottom: 10px solid rgb(73, 51, 35);
+
+        border-right: 10px solid rgb(73, 51, 35);
+
+
+    }
+}
+
+
+
+
+
+@keyframes slideAbouDate{
+
+    0%{
+        transform:translateX(-50px);
+        opacity: 0;
+    }
+    50%{
+        transform:translateX(-20px);
+        opacity: 0.5;
+    }    
+    100%{
+        transform:translateX(10px);
+        opacity: 1;
+    }
+}
+

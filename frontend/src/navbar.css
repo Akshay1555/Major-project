@@ -1,0 +1,40 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+.mainnav {
+height: 50px;
+
+  min-width: 600px;
+  display: flex;
+  
+
+  background-color: rgb(255, 194, 111);
+  justify-content: space-around;
+  margin: 0;
+}
+
+.mainnav a {
+  position: relative;
+  text-decoration: none;
+  font-family: 'Poppins', sans-serif; /* Separate font names with a comma */
+  font-size: 18px;
+  letter-spacing: 0.5px;
+  color: black;
+  /* padding: 0 10px; */
+}
+
+.mainnav a:after {
+  content: "";
+  position: absolute;
+  background-color: bisque;
+  width: 0; /* Set initial width to 0 to hide the line */
+  height: 3px;
+  left: 0;
+  bottom: -10px;
+  transition: width 0.3s; /* Only transition the width property */
+}
+
+.mainnav a:hover:after {
+  width: 100%; /* Expand the line on hover */
+}

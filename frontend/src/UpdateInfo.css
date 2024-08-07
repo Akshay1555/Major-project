@@ -1,0 +1,52 @@
+.UpdateContainer{
+  margin-left:3%;
+  margin-top: 75%;
+}
+
+label {
+  display: block;
+  width: 300px;
+  margin-left: 30px;
+  /* margin-bottom: 5px; */
+  font-weight: bold;
+}
+.inputBox{
+  padding: 7px;
+  display: block;
+  border: 1px solid saddlebrown;
+  width: 300px;
+  margin-bottom: 20px;
+}
+
+.registerButton{
+  margin: 20px;
+  width: 150px;
+  padding: 15px;
+  background-color: rgb(145, 104, 74);
+  border-radius: 25px;
+  border: solid 1px;
+  cursor: pointer;
+}
+
+.registerButton:hover{
+  background-color: rgb(73, 51, 35);
+}
+
+.invalid{
+  color: red;
+ 
+}
+
+.custom-button-class {
+  background-color:rgb(136, 74, 57);
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 8px;
+}

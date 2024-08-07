@@ -1,0 +1,243 @@
+
+
+.goshala-page {
+  height:90vh; 
+  display: flex;
+  flex-direction: column;
+  overflow:scroll;
+  margin-top: 5px;
+  /* align-items: center; */
+  width: 100%; 
+  /* justify-content: center; */
+  /* background-color: #d0f0ff; Example background color */
+  border-bottom: 2px solid #ccc; /* Example border for separation */
+  padding: 10px;
+}
+
+.goshalaPageh1 {
+  color: black;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 3em;
+  background-color:#FF8C00;
+  margin:5px;
+  border-radius:10px;
+}
+.gos-about{
+  max-height: 500px;
+  width: 300px;
+  display:grid;
+  background-color:rgb(240, 148, 77);
+  margin: 10px;
+  padding: 10px;
+  justify-content:center;
+  border-radius:15px;
+  overflow-y: scroll;
+  
+}
+.gos-about:hover{
+  background-color:#FF8C50;
+
+}
+.gos-about h4{
+  display: flex;
+  align-items:center;
+  justify-content: center;
+  background-color:white;
+  padding: 0;
+  border-radius:25%;
+}
+.gos-about1{
+  display: flex;
+  flex-wrap: wrap;
+  width: 50vw;
+}
+.gos-about1 div{
+  height: 280px;
+  width:200px;
+  border: 1px solid rgb(230, 96, 13);
+  margin:20px;
+  display:grid;
+  align-items: center;
+  justify-items: center;
+  text-decoration: #FF8C00;
+  filter: drop-shadow(2px 2px 2px  orange);  
+
+}
+.gos-about1 div:hover{
+  filter: drop-shadow(2px 2px 2px  rgb(0, 110, 255));  
+}
+.gos-about1 div img{
+  height: 100px;
+  width:100px;
+  
+}
+.gos-about1 div p{
+  margin:0 22px 0 22px;
+  
+}
+.goshalaPageh1:hover{
+  background-color:#FF8C50;
+  /* padding: 3px; */
+}
+.about-gs{
+  width:100%;
+  background-color:rgb(215, 238, 246);
+  display:flex;
+  flex-flow: wrap;
+  justify-content: center;
+}
+.facility{
+  margin: 5px 0;
+  background-color: #FFF8DC;
+  text-align: center;
+  padding:10px;
+  /* overflow-x: scroll; */
+}
+.facility2{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.facility .item{
+  width: 250px;
+  height: 160px;
+  margin: 10px;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid orangered;
+  filter: drop-shadow(2px 2px 2px  orangered);  
+  text-decoration: #FF8C00;
+  background-color: none;
+  padding:5px;
+
+  
+
+}
+.facility .item img{
+  height: 120px;
+  width: 120px;
+}
+.animal{
+  margin: 5px 0;
+  background-color:#FEFAF6;
+  padding:10px;
+  
+  display:grid;
+  justify-content:center;
+  text-align: center;
+  
+
+}
+.animal2{
+  background-color: #FEFAF6;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+}
+.animal2 .item{
+  width: 150px;
+  height: 100px;
+  background-color: #F2613F;
+  margin: 10px;
+  border-radius: 10px;
+  padding:10px;
+
+}
+.require{
+  margin: 5px 0;
+  background-color: #FEFAF6;
+  text-align: center;
+  padding:10px;
+
+}
+.payment{
+  margin: 5px 0;
+  height:100px;
+  text-align: center;
+
+}
+.require2{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.require2 .item{
+  width: 250px;
+  height: 250px;
+  margin: 10px;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid rgb(5, 67, 24);
+  filter: drop-shadow(2px 2px 2px  rgb(6, 103, 43));  
+  text-decoration: #FF8C00;
+  background-color: none;
+  padding:10px;
+
+
+}
+.require2 img{
+  height: 150px;
+  width: 150px;
+}
+.gallery {
+  display: block-inline;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  background-color: whitesmoke;
+}
+
+.gallery img {
+  width: 300px; /* Set width to 200px */
+  margin-left:30px ;
+  height: 300px; /* Set height to 200px */
+  border: 2px solid black; /* Example border */
+}
+.counts {
+  --background-color: rgba(var(--default-color-rgb), 0.04);
+  padding: 25px 0;
+}
+
+.counts .stats-item {
+  /* padding: 30px; */
+  width: 100%;
+  height: 50%;
+  display: grid; /* Ensure the item uses grid layout */
+  justify-content: center; /* Center the content horizontally */
+  align-items: center; /* Center the content vertically */
+  text-align: center; /* Center the text */
+}
+
+.counts .stats-item .d-flex {
+  display: flex; /* Enable flexbox layout */
+  justify-content: center; /* Center content horizontally */
+  align-items: center; /* Center content vertically */
+}
+
+.counts .stats-item span {
+  font-size: 48px;
+  display: block;
+  color: var(--accent-color);
+  font-weight: 700;
+}
+
+.counts .stats-item p {
+  color: rgba(var(--default-color-rgb), 0.6);
+  padding: 0;
+  margin: 0;
+  font-family: var(--heading-font);
+  font-size: 1.5em;
+  font-weight: 600;
+}
+
+/* Additional rule for the plus sign */
+.counts .stats-item .plus {
+  font-size: 48px; /* Match the size of the main stat number */
+  color: var(--accent-color); /* Match the color of the main stat number */
+  font-weight: 700; /* Match the weight of the main stat number */
+}

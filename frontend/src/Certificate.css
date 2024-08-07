@@ -1,0 +1,38 @@
+.certificate-container {
+  border: 2px solid #333;
+  background-color: #f7f7f7;
+  padding: 20px;
+  text-align: center;
+  max-width: 600px; /* Adjust the max-width as needed */
+  margin: 0 auto; /* Center the container horizontally */
+}
+
+.Certificate {
+  margin: 0;
+  padding: 0;
+  display: flex; /* Add display: flex to enable alignment properties */
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+}
+
+.certificate-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.donor-name {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.certificate-message {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.date {
+  font-size: 14px;
+  color: #888;
+}

@@ -1,0 +1,37 @@
+/* Home.css */
+
+.homepage {
+    height:90vh; 
+    display: flex;
+    flex-direction: column;
+    /* overflow:scroll; */
+    margin-top: 0px;
+    /* align-items: center; */
+    width: 100%; 
+    /* justify-content: center; */
+    /* background-color: #d0f0ff; Example background color */
+    border-bottom: 2px solid #ccc; /* Example border for separation */
+    padding-top: 0;
+    padding: 10px;
+}
+
+/* .HomeH1 {
+    position: absolute;
+    top: 90px;
+    right: 90px; /* Align the h1 tag to the right */
+    /* font-size: 80px;
+    color: #ffffff;
+} */ 
+
+/* @media screen and (max-width: 768px) {
+    .home {
+        height: 80vh; /* Reduce height for smaller screens 
+    } */
+
+    /* .HomeH1 {
+        top: 50%;  Center the h1 tag vertically 
+        right: 50%; /* Align the h1 tag to the right 
+        transform: translate(50%, -50%); /* Center the h1 tag 
+        font-size: 40px; /* Reduce font size for smaller screens 
+    }
+} */
